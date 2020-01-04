@@ -1,5 +1,5 @@
-# # import operating system and glob libraries
-
+# Code by Dr. Candace Makeda Moore, MD ; medical hipster dou-chet, aka cmhm
+# import operating system and glob libraries
 import os
 import glob
 
