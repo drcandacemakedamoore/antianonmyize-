@@ -9,7 +9,7 @@ import glob
 import pydicom
 
 
-# grab the name of every file in our folder
+# grab the name of every file in a folder that must be created called 'files_to_antianonymize' folder
 for filename in glob.iglob('files_to_antianonymize/*', recursive=True):
     # read in a DICOM file into memory
     ds = pydicom.read_file(filename, force=True)
